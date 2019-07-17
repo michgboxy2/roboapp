@@ -13,6 +13,7 @@ import {searchRobot, requestRobots} from './reducers';
 
 const logger = createLogger();
 
+
 //combine all reducers to a root and use the root in a store
 const rootReducer = combineReducers({searchRobot, requestRobots});
 
